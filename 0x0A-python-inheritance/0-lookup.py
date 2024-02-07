@@ -1,5 +1,5 @@
 #!/usr/bin/python3
+# lookup() function that calls the dir function with object as an argument
 def lookup(obj):
-"""call the dir() function with the obj argument and return the resulting list."""
-    return dir(obj))
-    """returns a list of the available atributes of the object"""
+    #returns possible attributes for the obect
+    return dir(obj)
