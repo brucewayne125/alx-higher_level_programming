@@ -5,7 +5,7 @@
 
 
 def write_file(filename="", text=""):
-    """ writes a string  in unicode and returns the length of the char"""
+    """ writes a string in unicode and return: the length of the char."""
     with open(filename, 'w', encoding='utf-8') as myfile:
         myfile.write(text)
         return len(text)
