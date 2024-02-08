@@ -4,8 +4,7 @@
 
 class MyList(list):
     """print_sorted: Dfines a subclass, MyList, of an inherited class, list"""
-    pass
 
     def print_sorted(self):
         """prints a sorted list in ascending order"""
-        print(sorted(list(self)))
+        print(sorted(self))
