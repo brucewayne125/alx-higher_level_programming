@@ -4,6 +4,8 @@ if __name__ == "__main__":
     num_arg = len(argv) - 1
     if num_arg < 1:
         print("{} arguments.".format(num_arg))
+    elif num_arg == 1:
+        print("{} arguments:".format(num_arg))
     else:
         print("{} arguments:".format(num_arg))
     for i in range(num_arg):
