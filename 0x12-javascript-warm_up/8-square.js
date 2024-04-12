@@ -5,7 +5,7 @@ const square = parseInt(process.argv[2]);
 if (isNaN(square)) {
   console.log('Missing size');
 } else {
-    for (let i = 0; i < square; i++) {
+  for (let i = 0; i < square; i++) {
       console.log('x'.repeat(square));
-    }
   }
+}
